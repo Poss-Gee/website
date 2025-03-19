@@ -206,13 +206,10 @@ section {
     transform: translateY(-2px);
 }
 
-.home-img {
-    position: relative;
-}
-
 .home-img img {
     width: 35vw;
     max-width: 450px;
+    min-width: 300px; /* Minimum width to prevent the image from becoming too small */
     border-radius: 2rem;
     box-shadow: 0 0 2rem var(--shadow-color);
     animation: floatImage 4s ease-in-out infinite;
@@ -242,6 +239,7 @@ section {
 .about-img img {
     width: 35vw;
     max-width: 450px;
+    min-width: 300px; /* Minimum width to prevent the image from becoming too small */
     border-radius: 2rem;
     box-shadow: 0 0 2rem var(--shadow-color);
     transition: var(--transition);
@@ -681,7 +679,7 @@ section {
     }
 
     .about-img img {
-        width: 90vw;
+        width: 70vw;
     }
 
     .services h2 {
@@ -709,6 +707,14 @@ section {
     .contact form .input-box input {
         width: 100%;
     }
+
+    .home-img img {
+        width: 80vw;
+    }
+
+    .about-img img {
+        width: 80vw;
+    }
 }
 
 @media (max-width: 365px) {
@@ -717,7 +723,7 @@ section {
     }
 
     .about-img img {
-        width: 70vw;
+        width: 90vw;
     }
 
     .footer {
