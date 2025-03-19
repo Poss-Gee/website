@@ -668,7 +668,7 @@ section {
     }
 
     .home-img img {
-        width: 70vw;
+        width: 60vw;
     }
 
     .about {
@@ -681,7 +681,7 @@ section {
     }
 
     .about-img img {
-        width: 70vw;
+        width: 60vw;
     }
 
     .services h2 {
@@ -713,11 +713,11 @@ section {
 
 @media (max-width: 365px) {
     .home-img img {
-        width: 90vw;
+        width: 70vw;
     }
 
     .about-img img {
-        width: 90vw;
+        width: 70vw;
     }
 
     .footer {
